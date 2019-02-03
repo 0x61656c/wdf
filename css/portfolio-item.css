@@ -107,7 +107,8 @@ img{
 /* Container needed to position the button. Adjust the width as needed */
 .container {
   position: relative;
-  width: 100%;
+  width: 70%;
+  margin-top: 3vh;
 }
 
 /* Make the image responsive */
@@ -121,6 +122,8 @@ img{
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 89%;
+  height: 100%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555;
@@ -130,9 +133,11 @@ img{
   border: none;
   cursor: pointer;
   border-radius: 1000px;
+  opacity: .6;
 }
 
 .container .btn:hover {
   background-color: black;
+  opacity: .9;
 }
 
